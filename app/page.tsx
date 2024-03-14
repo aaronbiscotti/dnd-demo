@@ -7,10 +7,7 @@ import { BOX } from "@/components/interfaces";
 import React, { useState, createContext } from "react";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
-
-export const BoxContext = createContext({
-  markPlaced: (id: number, boxType: string) => {},
-});
+import { BoxContext } from "./BoxContext";
 
 const colors = ["red", "blue", "green", "cyan"];
 

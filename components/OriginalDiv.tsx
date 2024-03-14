@@ -1,7 +1,7 @@
 import { useDrop } from "react-dnd";
 import itemTypes from "@/utils/ItemTypes";
 import { useContext } from "react";
-import { BoxContext } from "@/app/page";
+import { BoxContext } from "@/app/BoxContext";
 
 export interface OriginalDivProps {
   children: React.ReactNode;

@@ -1,4 +1,4 @@
-import { BoxContext } from "@/app/page";
+import { BoxContext } from "@/app/BoxContext";
 import itemTypes from "@/utils/ItemTypes";
 import { useContext, useEffect, useState } from "react";
 import { useDrop } from "react-dnd";
