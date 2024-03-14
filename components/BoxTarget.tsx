@@ -25,5 +25,4 @@ const BoxTarget = (props: BoxTargetProps) => {
     </div>
   );
 };
-
 export default BoxTarget;
